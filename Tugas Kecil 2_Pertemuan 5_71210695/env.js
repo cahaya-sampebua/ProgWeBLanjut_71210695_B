@@ -1,12 +1,15 @@
-// env.js
+// 1. Membuat Env Variable sesuai data yang diregister
 const cat_env = {
-  API_KEY: "live_tOqt81j977NpFfd8xyofyUzbefy3Qurr948vvE7zqbm1MZGgp3oaG5xyS16kgi86",
-  endpoint: "https://api.thedogapi.com/",
+    API_KEY:
+        "live_KUx9c5hXtIj9XJSLLJ3OEJ5NtB5tDmYw51iPYiQ7Uqmmnerr6vTdSeg2WMBSiGjn",
+    endpoint: "https://api.thecatapi.com/",
 };
 
 const dog_env = {
-  API_KEY: "live_tOqt81j977NpFfd8xyofyUzbefy3Qurr948vvE7zqbm1MZGgp3oaG5xyS16kgi86",
-  endpoint: "https://api.thedogapi.com/",
+    API_KEY:
+        "live_x4NEmafqeX7nGGKFbohLVvjBd3quKW9293GTBPFhrdPNgyaSc4lsBRrxKAXwqmqm",
+    endpoint: "https://api.thedogapi.com/",
 };
 
-export { cat_env,dog_env};
+// 2. Export dog_env
+export { dog_env, cat_env };
